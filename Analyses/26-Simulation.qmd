@@ -588,11 +588,10 @@ How do sample size, non-normality, and limited categories affect CFA estimation 
 From Chalmers and Adkins (2020):
 Determine the properties of an item factor analysis model for ordinal response data that utilizes polychoric correlation matrices.
 Evaluate two types of estimation criteria for empirical applications where the underlying latent variables are, or are not, distributed multivariate normal.
-The estimation criteria under investigation are the weighted least squares (WLS) and a robust variant of the WLS where only the diagonal of the associated weight matrix is used (termed diagonally weighted least squares; DWLS) with a mean-variance correction to the 2 goodness-of-1t statistic (termed WLSMV).
+The estimation criteria under investigation are the weighted least squares (WLS) and a robust variant of the WLS where only the diagonal of the associated weight matrix is used (termed diagonally weighted least squares; DWLS) with a mean-variance correction to the $\chi^2$ goodness-of-fit statistic (termed WLSMV).
 Investigate the effects of various latent variable distribution shapes, the number of observed response categories, sample size, and model complexity (i.e., number of latent variables and observed indicator variables).
-The analysis of their simulated data will focus on the behavior of the (scaled) chi-squared goodness-of-fit test statistic, recovery of the population parameters, and the consistency of the standard error estimates.
-Finally, simulation results will be summarized using the relative bias meta-statistic, the distributional properties of the (scaled) chi-squared statistic relative to the model's degrees of freedom,
-and the performance of the standard error estimates relative to the standard deviation of the parameter estimates across the independent replications.
+The analysis of their simulated data will focus on the behavior of the (scaled) $\chi^2$ goodness-of-fit test statistic, recovery of the population parameters, and the consistency of the standard error estimates.
+Finally, simulation results will be summarized using the relative bias meta-statistic, the distributional properties of the (scaled) chi-squared statistic relative to the model's degrees of freedom, and the performance of the standard error estimates relative to the standard deviation of the parameter estimates across the independent replications.
 
 ```{r}
 num_replications <- 500
